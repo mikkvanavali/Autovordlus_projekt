@@ -12,13 +12,21 @@ Programm arvutab välja, milline on 100 km sõidukulu, valitud teekonna sõiduku
 MVP-s ei arvestata kasutuskulusid nagu hooldus, varuosad jne.  
 Rakendus on edasiarendatav, see tähendab, et tulevikus saab lisada uusi parameetreid ja võrdluskriteeriume.
 Programm koosneb klassist Auto ja selle alamklassidest:
+
 •	Bensiiniauto
+
 •	Diiselauto
+
 •	Elektriauto
+
 Klassides on konstruktorid, mis võimaldavad autode erinevaid parameetreid väärtustada, get-ja set meetodid ning meetodid, millega erinevaid autosid võrreldakse. 
 Samuti klassist Jaam ja selle alamklassidest:
+
 •	Elektrijaam
+
 •	Bensiinijaam
+
 •	Diislijaam
+
 , kus saab määrata sõidukite liigutamiseks kasutatavate energiaallikate hinda.
 Peaklassis saab  väärtustada testitavate sõidukite parameetrid, periood, liisingutingimused,  võrdluskriteeriumid ja kuvada võrdluse tulemused. 
