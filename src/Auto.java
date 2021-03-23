@@ -4,11 +4,11 @@ public class Auto {
     String tyyp; // elektriauto, diiselauto, bensiiniauto
     double ostuhind;
     double energiakulu;
-    int laadimisaeg;
+    double laadimisaeg;
     int soiduulatus;
     Jaam energiatarnija;
 
-    public Auto(String mark, String mudel, String tyyp, double ostuhind, double energiakulu, int laadimisaeg, int soiduulatus, Jaam energiatarnija) {
+    public Auto(String mark, String mudel, String tyyp, double ostuhind, double energiakulu, double laadimisaeg, int soiduulatus, Jaam energiatarnija) {
         this.mark = mark;
         this.mudel = mudel;
         this.tyyp = tyyp;
@@ -51,7 +51,7 @@ public class Auto {
         this.soiduulatus = soiduulatus;
     }
 
-    public int getLaadimisaeg() {
+    public double getLaadimisaeg() {
         return laadimisaeg;
     }
 
@@ -96,14 +96,14 @@ public class Auto {
         return (teepikkus/soiduulatus)*laadimisaeg + (teepikkus/keskminekiirus);
     }
 
-    /* tostring tuleks ilmselt teha igale autotüübile eraldi
+    // tostring tuleks ilmselt teha igale autotüübile eraldi
 
     public String toString() {
-        return ("Auto mark: " + mark + "mudel: " + mudel + ", elektri/kütusekulu: " + energiakulu + " l/kWh/100km, laadimisaeg: "
+        return ("Auto mark: " + mark + ", mudel: " + mudel + ", elektri/kütusekulu: " + energiakulu + " l/kWh/100km, laadimisaeg: "
                 + laadimisaeg + " tundi, sõiduulatus: " + soiduulatus + "km, 100km reisi maksumus: "
                 + maksumus100()) + " EUR.";
     }
 
-     */
+
 
 }
