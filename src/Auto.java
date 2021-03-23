@@ -87,7 +87,7 @@ public class Auto {
         double n = 12 * perioodaastates;
         double liisinguKuumakse = (liisinguosa * r) / (1 - Math.pow(1+r, -n));
         double liisingukulu = perioodaastates*12*liisinguKuumakse;
-        return sissemaks - jääkväärtus + liisingukulu + maksumus((int) (perioodaastates*läbisõitaastas));
+        return sissemaks + liisingukulu + maksumus((int) (perioodaastates*läbisõitaastas));
     }
 
     // bensiini-ja diiselautol on sõiduulatus == teepikkus ja laadimisaeg == 0 või lahendame kuidagi teistmoodi?
