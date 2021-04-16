@@ -1,20 +1,19 @@
 public class Jaam {
-
-    String jaamaNimi;
     double energiahind;
+    double kütuseCO2jälg;
 
-    public Jaam(String jaamaNimi, double energiahind) {
-        this.jaamaNimi = jaamaNimi;
+    public Jaam(double energiahind, double kütuseCO2jälg) {
         this.energiahind = energiahind;
+        this.kütuseCO2jälg=kütuseCO2jälg;
+    }
+
+    public void setEnergiahind(double energiahind) {
+        if (energiahind>0)
+            this.energiahind = energiahind;
     }
 
     public double getEnergiahind() {
         return energiahind;
     }
-
-    public void setEnergiahind (double energiahind) {
-        this.energiahind = energiahind;
-    }
-
 
 }
