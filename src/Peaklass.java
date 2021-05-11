@@ -43,7 +43,7 @@ public class Peaklass {
                 JLabel ostuhind_sõnum = new JLabel("Ostuhind (eurodes):");
                 JLabel energiakulu_sõnum = new JLabel("Energiakulu (100km kohta):");
                 JLabel soiduulatus_sõnum = new JLabel("Sõiduulatus (km):");
-                JLabel laadimisaeg_sõnum = new JLabel("Laadimisaeg (tunnides):");
+                JLabel laadimisaeg_sõnum = new JLabel("Laadimisaeg (tundides):");
                 TextField automark = new TextField(20);
                 TextField ostuhind = new TextField(20);
                 TextField energiakulu = new TextField(20);
@@ -164,7 +164,7 @@ public class Peaklass {
                 while(!väljad_on_korras){
                     JOptionPane.showConfirmDialog(null,jPanel, "Hindade uuendamine", JOptionPane.DEFAULT_OPTION,JOptionPane.PLAIN_MESSAGE);
                     if (bensiinihind.getText().length() <= 0 || diislihind.getText().length() <= 0 || elektrihind.getText().length() <= 0) {
-                        JOptionPane.showMessageDialog(null, "Palun kontrollige et kõik väljad on korrektselt täidetud");
+                        JOptionPane.showMessageDialog(null, "Palun kontrollige, et kõik väljad on korrektselt täidetud");
                         String s1 = bensiinihind.getText();
                         String s2 = diislihind.getText();
                         String s3 = elektrihind.getText();

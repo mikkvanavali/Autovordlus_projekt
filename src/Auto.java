@@ -6,7 +6,6 @@ public abstract class Auto implements Comparable<Auto>{
     Jaam energiatarnija;
     double kasutuskulu;
 
-
     public Auto(String automark, double ostuhind, double energiakulu, int soiduulatus, Jaam energiatarnija) {
         this.automark =automark;
         this.soiduulatus = soiduulatus;

@@ -40,7 +40,7 @@ public class AutodeVõrdleja {
             }
         }
         teine_koht=esimene_koht;  //See omakorda tagab teise foreach tsükli korrektse töö.
-        kolmas_koht=esimene_koht; //Tegisime just niiimoodi, sest autod.get(0) Auto võib olla kõige kiirem ja siis oleks raske võrreldada
+        kolmas_koht=esimene_koht; //Tegime just niiimoodi, sest autod.get(0) Auto võib olla kõige kiirem ja siis oleks raske võrrelda
         for (Auto auto : autod) {
             if(esimene_koht.reisiKestus(teepikkus, keskminekiirus)>auto.reisiKestus(teepikkus, keskminekiirus)){
                 temp1=esimene_koht;
@@ -69,11 +69,11 @@ public class AutodeVõrdleja {
       Auto temp2; //temp1 parema reisiKestuse jaoks(vähema jaoks)
       for (Auto auto : autod) {
           if (esimene_koht.autoCO2jälg() < auto.autoCO2jälg()) {
-              esimene_koht = auto;// See tsükkel teeb niimoodi, et esimesel kolm kohal on vähem loodussõbralikud autod ;
+              esimene_koht = auto;// See tsükkel teeb niimoodi, et esimesel kolmel kohal on vähem loodussõbralikud autod ;
           }
       }
       teine_koht = esimene_koht;  //See omakorda tagab teise foreach tsükli korrektse töö.
-      kolmas_koht = esimene_koht; //Tegisime just niiimoodi, sest autod.get(0) Auto võib olla kõige loodussõbralikum ja siis oleks raske võrreldada
+      kolmas_koht = esimene_koht; //Tegime just niiimoodi, sest autod.get(0) Auto võib olla kõige loodussõbralikum ja siis oleks raske võrrelda
       for (Auto auto : autod) {
           if (esimene_koht.autoCO2jälg() > auto.autoCO2jälg()) {
               temp1 = esimene_koht;
