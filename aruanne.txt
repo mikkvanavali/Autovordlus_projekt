@@ -1,0 +1,20 @@
+Autode andmed järjestatuna kasutuskulude kasvavas järjekorras:
+
+Bensiiniauto Dacia Sandero kütusekulu: 8.0 l/100km, sõiduulatus: 500km, 100km reisi maksumus: 11.2 EUR.  Kasutuskulu perioodi 5 a. jooksul on 14853.89 eurot.
+Bensiiniauto Skoda Fabia kütusekulu: 7.0 l/100km, sõiduulatus: 600km, 100km reisi maksumus: 9.8 EUR.  Kasutuskulu perioodi 5 a. jooksul on 18967.01 eurot.
+Bensiiniauto Toyota kütusekulu: 7.5 l/100km, sõiduulatus: 1000km, 100km reisi maksumus: 10.5 EUR.  Kasutuskulu perioodi 5 a. jooksul on 24009.73 eurot.
+Bensiiniauto Volkswagen Passat kütusekulu: 9.0 l/100km, sõiduulatus: 1000km, 100km reisi maksumus: 12.6 EUR.  Kasutuskulu perioodi 5 a. jooksul on 28811.68 eurot.
+Elektriauto: Nissan elektrikulu: 15.0 kWh/100km, sõiduulatus: 200km, 100km reisi maksumus: 3.3 EUR.  Kasutuskulu perioodi 5 a. jooksul on 31517.51 eurot.
+Diiselauto: Volvo V70 kütusekulu: 7.0 l/100km, sõiduulatus: 1000km, 100km reisi maksumus: 8.54 EUR.  Kasutuskulu perioodi 5 a. jooksul on 32220.57 eurot.
+Diiselauto: Audi A6 kütusekulu: 8.0 l/100km, sõiduulatus: 1000km, 100km reisi maksumus: 9.76 EUR.  Kasutuskulu perioodi 5 a. jooksul on 39589.46 eurot.
+Elektriauto: Tesla Model S elektrikulu: 20.0 kWh/100km, sõiduulatus: 250km, 100km reisi maksumus: 4.4 EUR.  Kasutuskulu perioodi 5 a. jooksul on 67838.92 eurot.
+
+Kolm autot, mille reisi kestus on kõige väiksem: 
+Auto Dacia Sandero aeg 1000 km läbimiseks keskmise kiirusega 70km/h on 14.0tundi.
+Auto Skoda Fabia aeg 1000 km läbimiseks keskmise kiirusega 70km/h on 14.0tundi.
+Auto Toyota aeg 1000 km läbimiseks keskmise kiirusega 70km/h on 14.0tundi.
+
+Top 3 kõige loodussõbralikumat autot: 
+Elektriauto: Nissan elektrikulu: 15.0 kWh/100km, sõiduulatus: 200km, 100km reisi maksumus: 3.3 EUR. 
+Elektriauto: Tesla Model S elektrikulu: 20.0 kWh/100km, sõiduulatus: 250km, 100km reisi maksumus: 4.4 EUR. 
+Bensiiniauto Skoda Fabia kütusekulu: 7.0 l/100km, sõiduulatus: 600km, 100km reisi maksumus: 9.8 EUR. 

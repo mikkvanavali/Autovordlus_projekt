@@ -28,7 +28,7 @@ public class AutodeVõrdleja {
             System.out.println(auto.toString() + " Kasutuskulu perioodi "+perioodaastates+ " a. jooksul on " + Math.round(auto.kasutuskulu*100)/100.0 + " eurot.");
         }
     }
-    public void kolmkiireimadRändajad(int teepikkus, int keskminekiirus){ //Polee ideet kuidas seda nimetada
+    public void kolmkiireimadRändajad(int teepikkus, int keskminekiirus){
         Auto esimene_koht=autod.get(0);
         Auto teine_koht=autod.get(0);
         Auto kolmas_koht=autod.get(0);

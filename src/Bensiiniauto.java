@@ -13,6 +13,6 @@ public class Bensiiniauto extends Auto {
     }
 
     public String toString() {
-        return "Bensiiniauto: "+automark + " kütusekulu: " + energiakulu + " l/100km, "+super.toString();
+        return "Bensiiniauto "+automark + " kütusekulu: " + energiakulu + " l/100km, "+super.toString();
     }
 }
