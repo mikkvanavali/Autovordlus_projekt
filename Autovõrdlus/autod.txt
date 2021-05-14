@@ -1,0 +1,9 @@
+bensiin,Dacia Sandero,12000,8,500
+diisel,Peugeot 208,20000,5,1000
+bensiin,Volkswagen Passat,30000,9,1000
+diisel,Volvo V70,40000,7,1000
+elekter,Nissan Leaf,45000,15,200,1.5
+bensiin,Toyota Corolla,28000,7.5,0
+diisel,Audi A6,50000,6.5,1000
+elekter,Tesla Model S,100000,20,250,1.5
+bensiin,Skoda Fabia,18000,7,600
